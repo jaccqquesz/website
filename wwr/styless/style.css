@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital@1&family=Oswald:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital@1&family=Oswald:wght@200&family=Playfair+Display:wght@500&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto
@@ -7,6 +11,7 @@ nav a{
     text-decoration: none;
     color:black ;
     text-align: center;
+    padding:35px;
 }
 
 
@@ -28,7 +33,11 @@ main section{
 
 
 body{
+    font-family: "Oswald";
+    font-size: 22px;
     background-color: #233d4d;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #d6ccc2;
@@ -39,6 +48,10 @@ header{
     color: black;
     background-color: #80ed99;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border: 5px;
 }
 
 
@@ -54,29 +67,40 @@ header{
     height: 725px;
 }
 .msg{
-  
+    line-height: 1.5em;
     background-color: #52b69a;
+    padding: 35px;
 }
 footer{
     color: #252422;
     background-color: #a47148;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 nav a:hover{
     color: #800e13;
 }
-.home-tile{
-    color: #333d29;
+.home-title{
+    font-family: "Inclusive Sans",Arial, Helvetica;
+    font-size: 2em;
+    color: black;
+    margin-top: 10px;
+}
+h2{
+    margin: 0;
 }
 h4{
     color:black
 }
-
 .msg h2{
+    font-family: "Mohave",Arial, Helvetica;
     color: #f5f3f4;
 }
 
 .msg p{
+    font-size: 2em;
     color: #161a1d;
+    padding-bottom: 15px;
 }
 footer a{
     text-decoration: none;
@@ -87,9 +111,8 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
-
-
 footer p{
     font-size: 1.2em;
 }
@@ -103,3 +126,24 @@ footer p a:hover{
     width: 100%;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img{
+    box-sizing: border-box;
+}
