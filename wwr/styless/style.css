@@ -35,15 +35,13 @@ header{
 }
 
 
-.book{
+.book,.join{
     color: black;
     background-color: #80ed99;
     text-decoration: none;
 }
-.join{
-    text-decoration: none;
-    background-color: #f6bd60;
-}
+
+
 .book:hover{
     background-color: #e29578;
 }
@@ -56,10 +54,11 @@ header{
     height: 725px;
 }
 .msg{
+  
     background-color: #52b69a;
 }
 footer{
-    color: #f07167;
+    color: #252422;
     background-color: #a47148;
 }
 nav a:hover{
@@ -73,17 +72,18 @@ h4{
 }
 
 .msg h2{
-    color: #233d4d;
+    color: #f5f3f4;
 }
+
 .msg p{
-    color: #5c8001;
+    color: #161a1d;
 }
 footer a{
     text-decoration: none;
     color: #240046;
 }
 footer a:hover{
-    color: #587a58;
+    color: #ffc300;
 }
 .icon{
     width: 80px;
@@ -96,5 +96,10 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
-
+.logo{
+    width: 80px;
+}
+#hero-img{
+    width: 100%;
+}
 
