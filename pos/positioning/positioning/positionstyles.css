@@ -208,33 +208,31 @@
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
+ 
 }
-.red5 { 
-  width: 100px; 
-  height: 100px; 
-  background-color: red; 
-} 
-.green5 { 
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
-
-} 
-.yellow5 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
-
-} 
-.blue5 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
-} 
 
 
-
-
+.red5{
+  width: 100%;
+  height: 25%;
+  background-color: red;
+}
+.blue5{
+  width: 100%;
+  height: 25%;
+  background-color: blue;
+}
+.green5{
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  float: left;
+}
+.yellow5{
+  width: 100%;
+  height: 200px;
+  background-color: yellow;
+}
 
 
 
@@ -242,29 +240,47 @@
 
 /* Activity 6 styles */ 
 .content6 {
+  position: relative;
+  display: grid;
+ 
+ 
   /* This is the parent of the activity 6 boxes. */
 }
 .red6 {
-  width: 100px; 
-  height: 100px; 
+  width: 400px; 
+  height: 200px; 
   background-color: red; 
 } 
 .green6 {
-  width: 100px; 
-  height: 100px; 
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
-} 
-.yellow6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
-} 
-.blue6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
+  z-index: 1;
 } 
 
+
+.blue6 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 400px; 
+  height: 400px; 
+  justify-content: center;
+  background-color: blue; 
+  z-index: 0;
+} 
+.yellow6 {
+  position: absolute;
+  right: 300px;
+  top: 200px;
+  width: 200px; 
+  height: 400px; 
+  background-color: gold; 
+  z-index: 2;
+}
 
 /* Do not make any changes below here */
 .activity {
