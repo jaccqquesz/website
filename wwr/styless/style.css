@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Mohave:ital@1&family=Oswald:wght@200&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Mohave:ital@1&family=Oswald:wght@200&family=Playfair+Display:wght@500&display=swap');
 
 #content{
     max-width: 1600px;
@@ -37,7 +35,7 @@ body{
     font-size: 22px;
     background-color: #233d4d;
     margin: 0;
-    padding: 0;
+    padding: 15px 30px;
 }
 header{
     background-color: #d6ccc2;
@@ -51,7 +49,7 @@ header{
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
-    border: 5px;
+    border-radius: 5px;
 }
 
 
@@ -81,7 +79,7 @@ nav a:hover{
     color: #800e13;
 }
 .home-title{
-    font-family: "Inclusive Sans",Arial, Helvetica;
+    font-family: "Mohave",Arial, Helvetica;
     font-size: 2em;
     color: black;
     margin-top: 10px;
@@ -98,7 +96,7 @@ h4{
 }
 
 .msg p{
-    font-size: 2em;
+    font-size: 0.8em;
     color: #161a1d;
     padding-bottom: 15px;
 }
@@ -132,15 +130,9 @@ footer p a:hover{
 footer .social img{
     padding-top: 15px;
 }
-.rivers-card{
+.rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
-}
-.camping-card{
-    margin: 200px 0;
-}
-.rapids-card{
-    margin: 200px 0;
-}
+    }
 .card-img{
     border: 10px solid black;
 }
