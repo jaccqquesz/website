@@ -1,37 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Mohave&family=Open+Sans&family=Oswald&family=Playfair+Display&display=swap');
 
-header{
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background: #233d4d;
+    background-color: red;
+}
+.header .titulo{
+    font-family: "Mohave";
+}
+.container{
+   
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.5em auto;
+    
     display: grid;
-    grid-template-columns: repeat(8,1fr);
-    grid-template-rows: (8,10px);
-    border: 2px solid black;
-    padding: 10px;
-    background-color: #701616;
-    font-family: "mohave";
+    gap: 1.6em;
+    grid-template-columns: repeat(6,1fr);
 }
 
-.logo{
-   height: 50px;
-   width: 50px;
-   grid-column: 1/2;
-   grid-row: 1/2;
+
+.container .header,
+.container .footer{
+    background: #701616;
+    grid-column: 1/7;
+}
+.container .titulo{
+    display: inline-block;
+    font-size: 12px;
+    grid-column: 3/6;
+   
+}
+.container .big{
+    grid-column: 2/4;
+
+}
+.container{
+    background: #cdb4db;
+}
+.container .contenido{
+    font-family: "Mohave";
+    grid-column: 2/5;
+}
+.imglado{
+    border: 4px solid black;
+    grid-column: 5/6;
+    margin-bottom: 50%;
+}
+.header{
+    padding: 5px 15px 5px 15px
+}
+.header .enlaces {
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-around;
+    color: black;
 }
 
-.company{
-  grid-column: 1/2;
-  grid-row: 2/3;
+.footer{
+    
+    background-color: #a47148;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-
-.nav{
-    grid-column: 1/2;
-    grid-row: 6/7;
-}
-h1{
-    grid-column: 2/6;
-    grid-row: 1/2;
-    text-align: center;
-}
-
 
 
 
